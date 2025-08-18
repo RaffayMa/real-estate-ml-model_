@@ -3,7 +3,7 @@ _This is my first Machine learning model, for the purpose of learning, I'll be t
 
 
 Whats the underlying data structure ? Read the data structure ? 
-*A binary Tree representation of a decision tree.*
+*A Decision Tree.*
 
 Research & define the base design ?
 *None - backend focused for learning.*

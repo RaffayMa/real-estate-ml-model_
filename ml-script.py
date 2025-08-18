@@ -1,9 +1,9 @@
 import pandas as pd
 
 #*********
-# Create
+# Data Wrangling  (R, Pandas-python)
 #*********
-
+  
  # Read & Store the CSV
  # Clean and create dataframe
  # Split data into training and validation data
@@ -11,8 +11,9 @@ import pandas as pd
  
 
 #********
-# Fit 
+# Create & Fit 
 #*********
+
  # seed the tree for random splits
  # Fit the training data frame to a regressor
 
