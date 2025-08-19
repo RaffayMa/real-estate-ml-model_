@@ -11,13 +11,14 @@ from sklearn.metrics import mean_absolute_error # for model validation
 # Data Wrangling  (R, Pandas-python)
 #*********
 
- # Dowlaoding the Sample set
-path = kgh.dataset_download("yasserh/titanic-dataset")
+ # Reading the csv
+Titanic_file_path = '/Users/muhammadraffaymagoon/Desktop/Projects/real-estate-ml-model_/Titanic-Dataset.xls'
 
-print("Path to dataset files:", path)
+data = pd.read_csv(Titanic_file_path) # read tthe csv to the program
+print(data.head) # View as a dataframe
 
-df = pd.read_csv(os.path.join(path, 'train.csv'))
-print(df.head())
+data.plot() # Graph visual
+plt.show()
 
 
 # Read & Store the CSV

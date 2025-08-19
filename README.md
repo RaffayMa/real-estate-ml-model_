@@ -1,5 +1,6 @@
 What the project ?
-_This is my first Machine learning model, for the purpose of learning, I'll be trying to draw a template for a findamental Model : Import , Create, Fit, Predict, Evaluate_
+_This is my first Machine learning model, for the purpose of learning, I'll be trying to draw a template for a fundamental Model : 
+Import, Create, Fit, Predict, Evaluate_
 
 
 Whats the underlying data structure ? Read the data structure ? 
