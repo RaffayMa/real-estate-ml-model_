@@ -11,19 +11,28 @@ from sklearn.metrics import mean_absolute_error # for model validation
 # Data Wrangling  (R, Pandas-python)
 #*********
 
- # Reading the csv
-Titanic_file_path = '/Users/muhammadraffaymagoon/Desktop/Projects/real-estate-ml-model_/Titanic-Dataset.xls'
+ # Read & Store the CSV
+Titanic_file_path = '/Users/muhammadraffaymagoon/Desktop/Projects/Titanic-ml-model_/Titanic-Dataset.xls'
 
+# Data visual
 data = pd.read_csv(Titanic_file_path) # read tthe csv to the program
 print(data.head) # View as a dataframe
 
-data.plot() # Graph visual
-plt.show()
+#data.plot() # Graph visual
+#plt.show()
+
+attributes = data.columns.to_list() # list of the attributes
+print(attributes)
+
+# Clean dataframe (exempted, titanic data set is clean.)
+
+# Determine feature and predicted VAR
 
 
-# Read & Store the CSV
-# Clean and create dataframe
 # Split data into training and validation data
+
+
+
 # Create the X (stores the input attribute) and Y (stores the predictive Attribute) VARs 
  
 
